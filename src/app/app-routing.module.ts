@@ -10,7 +10,8 @@ const routes: Routes = [
   { path:'',component:LoginComponent },
   { path:'principal',component:PrincipalComponent },
   { path:'registrar',component:RegistrarComponent },
-  { path:'inicio',component:InicioComponent }
+  { path:'inicio',component:InicioComponent },
+  //{ path: 'inicio', component: MenuComponent,canActivate:[MisGuardGuard] },
 ];
 
 @NgModule({
